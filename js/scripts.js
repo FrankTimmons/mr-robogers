@@ -25,6 +25,7 @@ $(document).ready(function() {
     event.preventDefault();
     const numberPass = parseInt($("input#number").val());
     const namePass = $("input#name").val();
-    $(".arrayOutput").text(beepBoop(numberPass, namePass));
+    $("#arrayOutput").text(beepBoop(numberPass, namePass));
+    $("#outputBox").show();
   });
 });
