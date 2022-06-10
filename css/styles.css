@@ -17,7 +17,7 @@ h1 {
   background-color: white;
 }
 
-#outputBox {
+#output-box {
   display: none;
   margin: 20px;
   padding: 15px;
@@ -30,7 +30,7 @@ h1 {
   left: 20px;
   position: fixed;
   width: auto;
-  height: 300px;
+  height: 25%;
   outline: dotted pink;
 }
 
@@ -39,7 +39,7 @@ h1 {
   right: 20px;
   position: fixed;
   width: auto;
-  height: 300px;
+  height: 25%;
   outline: dotted pink;
 }
 .roger-background {
@@ -54,9 +54,15 @@ h1 {
 }
 
 .trolley {
-  bottom: 0px;
-  left: 0px;
+  position: relative;
+  bottom: -30px;
+  height: 100px;
+  width: auto;
+}
+
+.footer-gif {
+  width: 100%;
   position: fixed;
-  height: 20px;
+  bottom: 0px;
 }
 
