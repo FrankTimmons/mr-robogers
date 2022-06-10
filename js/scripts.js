@@ -25,6 +25,7 @@ $(document).ready(function() {
   $("#form").submit(function(event) {
     event.preventDefault();
     const numberPass = $("input#number").val();
-    $(".arrayOutput").text(beepBoop(numberPass));
+    const namePass = $("input#name").val();
+    $(".arrayOutput").text(beepBoop(numberPass, namePass));
   });
 });
