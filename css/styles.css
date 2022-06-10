@@ -24,17 +24,24 @@ h1 {
 }
 
 .mr-roboger {
-  float: left;
+  top: 20px;
+  left: 20px;
+  position: fixed;
   width: auto;
   height: 300px;
+  outline: dotted pink;
 }
 
 .mr-roboger-2 {
-  float: right;
+  top: 20px;
+  right: 20px;
+  position: fixed;
   width: auto;
   height: 300px;
+  outline: dotted pink;
 }
 .roger-background {
   background-image: url(../img/background-roger.jpg);
+  background-attachment: fixed;
 }
 
