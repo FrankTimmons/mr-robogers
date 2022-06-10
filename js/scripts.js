@@ -17,3 +17,11 @@ function beepBoop(number){
   }
   return numArray;
 }
+
+$(document).ready(function() {
+  $("#form").submit(function(event) {
+    event.preventDefault();
+    const numberPass = $("input#number").val();
+    $(".arrayOutput").text(beepBoop(numberPass));
+  });
+});
