@@ -23,15 +23,15 @@ h1 {
   padding: 15px;
   outline: solid black;
   background-color: white;
-  margin-bottom: 75px;
+  margin-bottom: 100px;
 }
 
 .mr-roboger {
   top: 20px;
   left: 20px;
   position: fixed;
-  width: auto;
-  height: 25%;
+  width: 15%;
+  height: 30%;
   outline: dotted pink;
 }
 
@@ -39,10 +39,11 @@ h1 {
   top: 20px;
   right: 20px;
   position: fixed;
-  width: auto;
-  height: 25%;
+  width: 15%;
+  height: 30%;
   outline: dotted pink;
 }
+
 .roger-background {
   background-image: url(../img/background-roger.jpg);
   background-attachment: fixed;
@@ -80,7 +81,7 @@ h1 {
 .robo-talk {
   float: left;
   height: 50px;
-  margin: 10px;
+  margin-right: 10px;
 }
 .footer-gif {
   width: 100%;
