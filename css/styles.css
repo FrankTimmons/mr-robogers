@@ -69,6 +69,13 @@ h1 {
   height: 50px;
   width: auto;
 }
+.robo-wave {
+  position: relative;
+  left: 100px;
+  bottom: 5px;
+  height: 50px;
+  width: auto;
+}
 
 .footer-gif {
   width: 100%;
