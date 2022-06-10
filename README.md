@@ -18,10 +18,11 @@ This application will take a number from the user, convert it into an array, the
 
 ## Setup/Installation Requirements
 
+* Follow [this link](https://franktimmons.github.io/mr-robogers/), and skip steps 2-4. Or..
 * Clone this repository to your computer.
 * Open mr-robogers directory.
 * Open index.html.
-* Input a number in the field.
+* Input a number, and name in the fields.
 
 ## Known Bugs
 
