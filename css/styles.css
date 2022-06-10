@@ -77,7 +77,11 @@ h1 {
   height: 50px;
   width: auto;
 }
-
+.robo-talk {
+  float: left;
+  height: 50px;
+  margin: 10px;
+}
 .footer-gif {
   width: 100%;
   position: fixed;
