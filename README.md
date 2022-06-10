@@ -34,9 +34,14 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 Describe: beepBoop()
 
-Test: "It should return an array of numbers from 0 to the user's inputted number"
+Test 1: "It should return an array of numbers from 0 to the user's inputted number"
 Code: beepBoop(5);
 Expected Output: [0, 1, 2, 3, 4, 5]
+
+Test 2: "It should return 0 if the user doesn't input a number"
+Code: beepBoop("String")
+Expected Output: 0
+
 
 ## License
 
