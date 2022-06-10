@@ -7,7 +7,6 @@
 ## Technologies Used
 
 * JavaScript
-* Markdown
 * HTML
 * CSS
 * jQuery
