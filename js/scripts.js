@@ -1,3 +1,5 @@
+// Business Logic
+
 function beepBoop(number, name){
   if (!Number(number)){
     return "Please input a number for number";
@@ -19,6 +21,8 @@ function beepBoop(number, name){
   }
   return numArray;
 }
+
+// UI Logic
 
 $(document).ready(function() {
   $("#form").submit(function(event) {

@@ -25,7 +25,9 @@ This application will take a number from the user, convert it into an array, the
 
 ## Known Bugs
 
-* No know bugs
+* If the user inputs a very high number(6000+), text will bleed out of the box.
+* Incredibly high numbers will make the site lag.
+* When the page shrinks horizontally, the images cover the input box.
 
 ## Tests
 
@@ -59,7 +61,7 @@ Test 7: "If a user inputs a name into a second argument, add that name to every 
 Code: beepBoop(5, "Frank")
 Expected Output: [0, 'Beep!', 'Boop!', 'Won't you be my neighbor Frank?', 4, 5]
 
-Test 8: "If a user inputs a number instead of a name, return "Please input a string for name"."
+Test 8: "If a user inputs a number instead of a string, return "Please input a string for name"."
 Code: beepBoop(5, 5);
 Expected Output: "Please input a string for name"
 
