@@ -42,6 +42,9 @@ Test 2: "It should return 0 if the user doesn't input a number"
 Code: beepBoop("String")
 Expected Output: 0
 
+Test 3: "It should replace every 3 in the output array with 'Won't you be my neighbor?'"
+Code: beepBoop(5);
+Expected Output: [0, 1, 2, 'Won't you be my neighbor?', 4, 5]
 
 ## License
 
