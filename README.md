@@ -15,22 +15,18 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+This application will take a number from the user, convert it into an array, then replace specific numbers in that array with strings. 
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* Clone this repository to your computer.
+* Open mr-robogers directory.
+* Open index.html.
+* Input a number in the field.
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* No know bugs
 
 ## Tests
 
@@ -62,6 +58,6 @@ Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+[MIT](/LICENSE)
 
-Copyright (c) _date_ _author name(s)_
+Copyright (c) 2022 Frank Timmons
