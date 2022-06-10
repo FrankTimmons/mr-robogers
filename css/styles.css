@@ -5,3 +5,15 @@ h1 {
   padding: 15px;
   outline: solid black;
 }
+
+.mr-roboger {
+  float: left;
+  width: auto;
+  height: 300px;
+}
+
+.mr-roboger-2 {
+  float: right;
+  width: auto;
+  height: 300px;
+}
