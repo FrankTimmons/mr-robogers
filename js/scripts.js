@@ -1,4 +1,4 @@
-function beepBoop(number){
+function beepBoop(number, name){
   if (!Number(number)){
     return "Please input a number";
   }
@@ -6,7 +6,7 @@ function beepBoop(number){
   numArray = [];
   for (let index = 0; index <= parsedNum; index +=1){
     if (index.toString().indexOf('3') > -1){
-      numArray.push(" Won't you be my neighbor?");
+      numArray.push(" Won't you be my neighbor " + name + "?");
     }else if (index.toString().indexOf('2') > -1){
       numArray.push(" Boop!");
     }else if (index.toString().indexOf('1') > -1){

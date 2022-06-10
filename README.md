@@ -56,6 +56,10 @@ Test 6: "The hierarchy for replacing numbers should be 3>2>1, so test 3 should r
 Code: beepBoop(39);
 Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Boop!", "Boop!", "Boop!", "Won't you be my neighbor?", "Boop!", "Boop!", "Boop!", "Boop!", "Boop!", "Boop!", "Won't you be my neighbor?", "Won't you be my neighbor?", "Won't you be my neighbor?", "Won't you be my neighbor?", "Won't you be my neighbor?", "Won't you be my neighbor?", "Won't you be my neighbor?", "Won't you be my neighbor?", "Won't you be my neighbor?", "Won't you be my neighbor?"]
 
+Test 7: "If a user inputs a name into a second argument, add that name to every occurence of "won't you be my neighbor?"
+Code: beepBoop(5, "Frank")
+Expected Output: [0, 'Beep!', 'Boop!', 'Won't you be my neighbor Frank?', 4, 5]
+
 ## License
 
 [MIT](/LICENSE)
