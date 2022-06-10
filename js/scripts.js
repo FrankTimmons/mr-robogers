@@ -1,6 +1,6 @@
 function beepBoop(number){
   if (!Number(number)){
-    return 0;
+    return "Please input a number";
   }
   parsedNum = parseInt(number);
   numArray = [];

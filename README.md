@@ -36,9 +36,9 @@ Test 1: "It should return an array of numbers from 0 to the user's inputted numb
 Code: beepBoop(5);
 Expected Output: [0, 1, 2, 3, 4, 5]
 
-Test 2: "It should return 0 if the user doesn't input a number"
+Test 2: "It should return "Please input a number" if the user doesn't input a number"
 Code: beepBoop("String")
-Expected Output: 0
+Expected Output: "Please input a number"
 
 Test 3: "It should replace every number containing 3 in the output array with 'Won't you be my neighbor?'"
 Code: beepBoop(5);
