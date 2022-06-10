@@ -52,7 +52,7 @@ Expected Output: [0, 1, 'Boop!', 'Won't you be my neighbor?', 4, 5]
 
 Test 5: "It should replace every number containing 1 in the output array with 'Beep!'"
 Code: beepBoop(5);
-Expected Output: [0, 'Beep!', 'Boop', 'Won't you be my neighbor?', 4, 5]
+Expected Output: [0, 'Beep!', 'Boop!', 'Won't you be my neighbor?', 4, 5]
 
 Test 6: "The hierarchy for replacing numbers should be 3>2>1, so test 3 should run, then test 4, then test 5"
 Code: beepBoop(39);
