@@ -1,8 +1,10 @@
 h1 {
   text-align: center;
-  margin: 20px;
+  margin: auto;
+  margin-top: 20px;
   display: block;
   padding: 15px;
+  width: 65%;
   outline: solid black;
   background-color: white;
 }
@@ -43,5 +45,18 @@ h1 {
 .roger-background {
   background-image: url(../img/background-roger.jpg);
   background-attachment: fixed;
+}
+
+.btn {
+  color: white;
+  background-color: red;
+  border-radius: 25px;
+}
+
+.trolley {
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+  height: 20px;
 }
 
