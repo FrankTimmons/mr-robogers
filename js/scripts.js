@@ -8,8 +8,10 @@ function beepBoop(number){
     if (index.toString().indexOf('3') > -1){
       numArray.push("Won't you be my neighbor?");
     }else if (index.toString().indexOf('2') > -1){
-      numArray.push("Boop");
-    }else{
+      numArray.push("Boop!");
+    }else if (index.toString().indexOf('1') > -1){
+      numArray.push("Beep!");
+    }else {
       numArray.push(index);
     }
   }

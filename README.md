@@ -46,9 +46,13 @@ Test 3: "It should replace every 3 in the output array with 'Won't you be my nei
 Code: beepBoop(5);
 Expected Output: [0, 1, 2, 'Won't you be my neighbor?', 4, 5]
 
-Test 4: "It should replace every 2 in the output array with 'Boop'"
+Test 4: "It should replace every 2 in the output array with 'Boop!'"
 Code: beepBoop(5);
-Expected Output: [0, 1, 'Boop', 'Won't you be my neighbor?', 4, 5]
+Expected Output: [0, 1, 'Boop!', 'Won't you be my neighbor?', 4, 5]
+
+Test 5: "It should replace every 1 in the output array with 'Beep!'"
+Code: beepBoop(5);
+Expected Output: [0, 'Beep!', 'Boop', 'Won't you be my neighbor?', 4, 5]
 
 ## License
 
